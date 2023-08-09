@@ -1,2 +1,2 @@
 #!/bin/bash
-asasasls -t1 | head
+ls -t1 | head
