@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Print a script for list the current dir  in a list format
+# displays the content of the current working directory.
 
-list="$(ls)"
-for i in $list; do
-    echo "$i" | cut -d '-' -f2
+for i in *
+do
+    echo "$i" | cut -d'-' -f2
 done
