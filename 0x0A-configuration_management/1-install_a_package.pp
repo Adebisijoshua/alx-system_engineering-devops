@@ -1,4 +1,4 @@
-# This will installs Flask version 2.1.0 using pip3
+# This manifest installs Flask version 2.1.0 using pip3
 
 # Install pip3 package
 package { 'python3-pip':
